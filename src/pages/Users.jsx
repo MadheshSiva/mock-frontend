@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 
-const API_BASE_URL = 'http://localhost:3060/api';
+const API_BASE_URL = 'https://mock-backend-two.vercel.app/api';
 
 // Confirmation Modal Component (unchanged)
 function ConfirmationModal({ isOpen, onClose, onConfirm, title, message, type = 'delete' }) {

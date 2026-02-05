@@ -19,9 +19,9 @@ function Dashboard() {
   const fetchDashboardData = async () => {
     try {
       setLoading(true);
-      const getuserDatas = await axios.get('http://localhost:3060/api/users-getall');
-      const getproductDatas = await axios.get('http://localhost:3060/api/products-getall');
-      const getUserProductDetails = await axios.get('http://localhost:3060/api/products-userdetails');
+      const getuserDatas = await axios.get('https://mock-backend-two.vercel.app/api/users-getall');
+      const getproductDatas = await axios.get('https://mock-backend-two.vercel.app/api/products-getall');
+      const getUserProductDetails = await axios.get('https://mock-backend-two.vercel.app/api/products-userdetails');
       
       console.log('User Data:', getuserDatas.data);
       console.log('Product Data:', getproductDatas.data);

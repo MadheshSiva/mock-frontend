@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:3060/api';
+const API_BASE_URL = 'https://mock-backend-two.vercel.app/api';
 
 function Products() {
   const [products, setProducts] = useState([]);
