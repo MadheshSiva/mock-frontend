@@ -6,7 +6,7 @@ function AdminLayout() {
   const navItems = [
     { path: '/admin', label: 'Dashboard', icon: '📊' },
     { path: '/admin/users', label: 'Users', icon: '👥' },
-    { path: '/admin/products', label: 'Products', icon: '📦' },
+    { path: '/admin/products', label: 'Sold Products', icon: '📦' },
   ];
 
   return (
